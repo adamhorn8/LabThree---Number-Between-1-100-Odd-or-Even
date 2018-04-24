@@ -28,16 +28,13 @@ namespace LabThree
                 }
                 else
                 {
-
-                
-
                     if (NumberBool == true)
                         {
                             if ((NumberParse % 2) == 0)
                             {
                                 if (NumberParse > 60)
                                 {
-                                    Console.WriteLine($"{NumberParse} odd");
+                                    Console.WriteLine($"{NumberParse} even");
                                 }
                                 else if ((NumberParse >= 26) && (NumberParse <= 60))
                                 {
@@ -56,7 +53,7 @@ namespace LabThree
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Odd");
+                                Console.WriteLine($"{NumberParse} Odd");
                                 }
                             }
                         }
